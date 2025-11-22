@@ -37,7 +37,7 @@ Main Tutorial:
 |||
 | -- | -- |
 | 1 | [Quickstart](./1.quickstart.ipynb) |
-| 2 | [State Graph](./2.stategraph.ipynb) |
+| 2 | [StateGraph](./2.stategraph.ipynb) |
 | 3 | [Middleware](./3.middleware.ipynb) |
 | 4 | [Human-in-the-Loop](./4.human_in_the_loop.ipynb) |
 | 5 | [Memory](./5.memory.ipynb) |

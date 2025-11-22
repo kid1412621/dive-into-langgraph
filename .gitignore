@@ -14,3 +14,6 @@ archived
 *.db
 *.db-wal
 *.db-shm
+
+# MyST build outputs
+_build

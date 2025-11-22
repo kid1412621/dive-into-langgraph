@@ -37,7 +37,7 @@ pip -r requirements.txt
 |序号|章节|
 | -- | -- |
 | 1 | [快速入门](../1.quickstart.ipynb) |
-| 2 | [状态图](../2.stategraph.ipynb) |
+| 2 | [StateGraph](../2.stategraph.ipynb) |
 | 3 | [中间件](../3.middleware.ipynb) |
 | 4 | [人机交互](../4.human_in_the_loop.ipynb) |
 | 5 | [记忆](../5.memory.ipynb) |
@@ -46,7 +46,7 @@ pip -r requirements.txt
 | 8 | [多智能体：Supervisor 模式](../8.supervisor.ipynb) |
 | 9 | [并行](../9.parallel.ipynb) |
 | 10 | [Deep Agents](../10.deep_agents.ipynb) |
-| 11 | [LangGraph CLI](../11.langgraph_cli.ipynb) |
+| 11 | [调试界面](../11.langgraph_cli.ipynb) |
 
 教程中未提及的一些关键代码实现：
 

@@ -43,7 +43,7 @@ Main Tutorial:
 | 5 | [Memory](./5.memory.ipynb) |
 | 6 | [Context Engineering](./6.context.ipynb) |
 | 7 | [MCP Server](./7.mcp_server.ipynb) |
-| 8 | [Multi-Agent: Supervisor Mode](./8.supervisor.ipynb) |
+| 8 | [Supervisor Mode](./8.supervisor.ipynb) |
 | 9 | [Parallel](./9.parallel.ipynb) |
 | 10 | [Deep Agents](./10.deep_agents.ipynb) |
 | 11 | [LangGraph CLI](./11.langgraph_cli.ipynb) |

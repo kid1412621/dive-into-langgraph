@@ -8,6 +8,7 @@ langgraph
 langgraph-cli[inmem]
 langgraph-supervisor
 langgraph-checkpoint-sqlite
+langmem
 ipynbname
 fastmcp
 bs4

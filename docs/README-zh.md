@@ -35,7 +35,7 @@ pip -r requirements.txt
 
 ## 二、章节目录
 
-主要内容包含在以下章节中：
+本教程的内容速览：
 
 |序号|章节|
 | -- | -- |
@@ -51,7 +51,7 @@ pip -r requirements.txt
 | 10 | [Deep Agents](../10.deep_agents.ipynb) |
 | 11 | [调试界面](../11.langgraph_cli.ipynb) |
 
-上面未介绍的一些关键功能实现，记录在代码中作为补充：
+未出现在上述章节但比较重要的代码，我放在仓库的 tests 目录下：
 
 |代码|说明|
 | -- | -- |

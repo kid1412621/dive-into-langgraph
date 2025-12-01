@@ -1,10 +1,37 @@
-# LangGraph 1.0 完全指南
+<div style="text-align: center;">
+    <img src="./img/cute.png" width="100%">
+    <h1>Dive into LangGraph</h1>
+</div>
+
+<div style="text-align: center;">
+  <img src="https://img.shields.io/github/stars/luochang212/dive-into-langgraph?style=flat&logo=github" alt="GitHub stars"/>
+  <img src="https://img.shields.io/github/forks/luochang212/dive-into-langgraph?style=flat&logo=github" alt="GitHub forks"/>
+  <img src="https://img.shields.io/badge/language-Chinese-brightgreen?style=flat" alt="Language"/>
+  <a href="https://github.com/luochang212/dive-into-langgraph"><img src="https://img.shields.io/badge/GitHub-Project-blue?style=flat&logo=github" alt="GitHub Project"></a>
+  <a href="https://github.com/luochang212/langgraph-tutorial/actions/workflows/deploy-book.yml"><img src="https://github.com/luochang212/langgraph-tutorial/actions/workflows/deploy-book.yml/badge.svg?branch=main" alt="deploy-book"/></a>
+</div>
+
+<div style="text-align: center;">
 
 中文 | [English](./docs/README-en.md)
 
-[LangGraph](https://github.com/langchain-ai/langgraph) 是由 [LangChain](https://github.com/langchain-ai) 团队开发的开源智能体框架。
+</div>
 
-## 一、安装依赖
+<div style="text-align: center;">
+  <p><a href="https://luochang212.github.io/dive-into-langgraph/">📚 在线阅读地址</a></p>
+  <h3>📖 LangGraph 1.0 完全指南</h3>
+  <p><em>从零开始，动手实现强大的智能体</em></p>
+</div>
+
+---
+
+## 一、项目介绍
+
+> 2025 年 10 月中旬，LangGraph 发布 1.0 版本。开发团队承诺这是一个稳定版，预计未来接口不会大改，因此现在正是学习它的好时机。
+
+[LangGraph](https://github.com/langchain-ai/langgraph) 是由 LangChain 团队开发的开源智能体框架。它功能强大，你要的记忆、MCP、护栏、状态管理、多智能体它全都有。LangGraph 通常与 [LangChain](https://github.com/langchain-ai/langchain) 配合使用：LangChain 提供基础组件和工具，LangGraph 负责工作流和状态管理。因此，两个库的文档都需要学习。为了让大家快速入门，我将两个库的主要功能提取出来，分成 11 个章节进行介绍。
+
+## 二、安装依赖
 
 ```bash
 pip install -r requirements.txt
@@ -33,7 +60,7 @@ pip install -r requirements.txt
   ```
 </details>
 
-## 二、章节目录
+## 三、章节目录
 
 本教程的内容速览：
 
@@ -60,17 +87,21 @@ pip install -r requirements.txt
 | [/tests/test_store.py](./tests/test_store.py) | 使用 `RedisStore` 快速读写长期记忆 |
 | [/tests/test_router.py](./tests/test_router.py) | 实现一个简单的智能体路由 |
 
-## 三、调试界面
+> \[!NOTE\]
+> 
+> 承诺：本教程完全基于 LangGraph v1.0 编写，不含任何 v0.6 的历史残留。
+
+## 四、调试界面
 
 `langgraph-cli` 提供了一个可快速启动的调试界面。
 
-```
+```bash
 langgraph dev
 ```
 
 详见 [第11章](./11.langgraph_cli.ipynb)
 
-## 四、参考文档
+## 五、参考文档
 
 - [LangChain](https://docs.langchain.com/oss/python/langchain/overview)
 - [LangGraph](https://docs.langchain.com/oss/python/langgraph/overview)

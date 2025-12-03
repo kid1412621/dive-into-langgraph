@@ -74,7 +74,7 @@ pip install -r requirements.txt
 | 6 | [上下文工程](./6.context.ipynb) | 使用 State、Store、Runtime 管理上下文 |
 | 7 | [MCP Server](./7.mcp_server.ipynb) | 创建 MCP Server 并接入 LangGraph |
 | 8 | [监督者模式](./8.supervisor.ipynb) | 两种方法实现监督者模式：tool-calling、langgraph-supervisor |
-| 9 | [并行](./9.parallel.ipynb) | 如何实现多节点并行 |
+| 9 | [并行](./9.parallel.ipynb) | 如何实现并行：节点并行、Map-reduce |
 | 10 | [Deep Agents](./10.deep_agents.ipynb) | 简单介绍 Deep Agents |
 | 11 | [调试页面](./11.langgraph_cli.ipynb) | 介绍 langgraph-cli 提供的调试页面 |
 

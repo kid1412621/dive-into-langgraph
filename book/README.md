@@ -24,4 +24,7 @@ jupyter book build
 
 ```bash
 jupyter book start
+
+# 或者
+npx mystmd start
 ```

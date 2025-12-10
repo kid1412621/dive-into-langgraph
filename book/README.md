@@ -34,5 +34,5 @@ npx mystmd start
 ```bash
 npx mystmd build --html
 
-python3 -m http.server 8000
+python3 -m http.server 8000 --directory _build/html
 ```

@@ -2,10 +2,11 @@
 version: 1
 project:
   id: 46b30020-b078-4f68-81fc-430fbf897d0f
-  title: 首页
+  title: LangGraph 1.0 完全指南
   description: LangGraph 1.0 教程
   keywords: [ "LangGraph", "Langchain" ]
-  authors: []
+  authors:
+    - name: Luo Chang
   github: https://github.com/luochang212/dive-into-langgraph
 site:
   template: book-theme

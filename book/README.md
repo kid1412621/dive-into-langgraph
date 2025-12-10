@@ -28,3 +28,11 @@ jupyter book start
 # 或者
 npx mystmd start
 ```
+
+构建并预览静态页面：
+
+```bash
+npx mystmd build --html
+
+python3 -m http.server 8000
+```

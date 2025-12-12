@@ -16,7 +16,7 @@ project:
     - file: 6.context.ipynb
     - file: 7.mcp_server.ipynb
     - file: 8.supervisor.ipynb
-    - file: 9.parallel.ipynb
+    - file: 9.parallelization.ipynb
     - file: 10.deep_agents.ipynb
     - file: 11.langgraph_cli.ipynb
 site:

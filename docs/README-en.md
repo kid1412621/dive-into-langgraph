@@ -74,7 +74,7 @@ Quick overview of the tutorial:
 | 6 | [Context Engineering](../6.context.ipynb) | Manage context using State, Store, Runtime |
 | 7 | [MCP Server](../7.mcp_server.ipynb) | How to create MCP Server and integrate with LangGraph |
 | 8 | [Supervisor Pattern](../8.supervisor.ipynb) | Two methods to implement supervisor pattern: tool-calling, langgraph-supervisor |
-| 9 | [Parallelism](../9.parallel.ipynb) | How to implement parallelism: node parallelism, Map-reduce, Sub-graphs |
+| 9 | [Parallelization](../9.parallelization.ipynb) | How to implement concurrency: node concurrency, `@task` decorator, Map-reduce, Sub-graphs |
 | 10 | [Deep Agents](../10.deep_agents.ipynb) | Brief introduction to Deep Agents |
 | 11 | [Debug UI](../11.langgraph_cli.ipynb) | Introduction to the debug UI provided by langgraph-cli |
 

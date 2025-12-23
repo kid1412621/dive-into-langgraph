@@ -8,7 +8,7 @@ from langchain_openai import ChatOpenAI
 from langchain.agents import create_agent
 from langgraph.store.memory import InMemoryStore
 from langmem import create_manage_memory_tool, create_search_memory_tool
-from langchain_core.messages import HumanMessage
+from langchain.messages import HumanMessage
 
 load_dotenv()
 

@@ -3,7 +3,7 @@ import re
 from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
 from langchain.agents import create_agent
-from langchain_core.messages import HumanMessage
+from langchain.messages import HumanMessage
 from langgraph.graph import MessagesState
 from langgraph.graph import StateGraph, START, END
 
